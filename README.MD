@@ -41,7 +41,7 @@ I loaded the 9 CSVs into a `raw` schema in PostgreSQL and left those tables unto
 | Delivered orders with no review | 646 | Kept the orders; excluded them from review analysis only |
 | Delivered orders with no courier hand-over date | 1 | Dropped in Python |
 | Negative courier days (pickup recorded after delivery) | 20 | Blanked the bad value in Python; kept the orders |
-| Products with no category | [ADD YOUR NUMBER] | Not used in this analysis |
+
  
 ### 2. Analyse (SQL)
  
